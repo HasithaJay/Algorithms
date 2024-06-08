@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+
+            int[] integerArr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+            LinearSearchClass.Verify(LinearSearchClass.LinearSearch(integerArr, 11));
         }
     }
 }
