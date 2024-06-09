@@ -9,7 +9,9 @@
 
             //LinearSearchClass.Verify(LinearSearchClass.LinearSearch(integerArr, 11));
 
-            BinarySearchClass.Verify(BinarySearchClass.BinarySearch(integerArr, 1));
+            //BinarySearchClass.Verify(BinarySearchClass.BinarySearch(integerArr, 1));
+
+            RecursiveBinarySearchClass.Verify(BinarySearchClass.BinarySearch(integerArr, 10));
         }
     }
 }
